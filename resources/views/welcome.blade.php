@@ -14,11 +14,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('dist/css/plugins.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('dist/css/dark.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('dist/css/style.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('dist/css/plugins.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('dist/css/dark.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('dist/css/style.css')}}" />
 
-    <!--[if lt IE 9]> <script type="text/javascript" src="{{asset('dist/js/modernizr.custom.js')}}"></script> <![endif]-->
+    <!--[if lt IE 9]> <script type="text/javascript" src="{{secure_asset('dist/js/modernizr.custom.js')}}"></script> <![endif]-->
 
 </head>
 <body>
@@ -33,7 +33,7 @@
     <div class="iknow_tm_modalbox">
         <div class="box_inner">
             <div class="close">
-                <a href="#"><img class="svg" src="{{asset('dist/img/svg/cancel.svg')}}" alt /></a>
+                <a href="#"><img class="svg" src="{{secure_asset('dist/img/svg/cancel.svg')}}" alt /></a>
             </div>
             <div class="description_wrap"></div>
         </div>
@@ -44,15 +44,15 @@
         <div class="container">
             <div class="topbar_inner">
                 <div class="logo">
-                    <a href="#"><img src="{{asset('dist/img/logo/dark.png')}}" alt /></a>
+                    <a href="#"><img src="{{secure_asset('dist/img/logo/dark.png')}}" alt /></a>
                 </div>
                 <div class="right">
                     <div class="social">
                         <ul>
-                            <li><a href="#"><img class="svg" src="{{asset('dist/img/svg/social/facebook.svg')}}" alt /></a></li>
-                            <li><a href="#"><img class="svg" src="{{asset('dist/img/svg/social/twitter.svg')}}" alt /></a></li>
-                            <li><a href="#"><img class="svg" src="{{asset('dist/img/svg/social/youtube.svg')}}" alt /></a></li>
-                            <li><a href="#"><img class="svg" src="{{asset('dist/img/svg/social/instagram.svg')}}" alt /></a></li>
+                            <li><a href="#"><img class="svg" src="{{secure_asset('dist/img/svg/social/facebook.svg')}}" alt /></a></li>
+                            <li><a href="#"><img class="svg" src="{{secure_asset('dist/img/svg/social/twitter.svg')}}" alt /></a></li>
+                            <li><a href="#"><img class="svg" src="{{secure_asset('dist/img/svg/social/youtube.svg')}}" alt /></a></li>
+                            <li><a href="#"><img class="svg" src="{{secure_asset('dist/img/svg/social/instagram.svg')}}" alt /></a></li>
                         </ul>
                     </div>
                     <div class="iknow_tm_button">
@@ -85,45 +85,45 @@
                         </div>
                         <div class="right">
                             <div class="image">
-                                <img src="{{asset('dist/img/thumbs/47-60.jpg')}}" alt />
-                                <div class="main" data-img-url="{{asset('dist/img/hero/1.jpg')}}"></div>
+                                <img src="{{secure_asset('dist/img/thumbs/47-60.jpg')}}" alt />
+                                <div class="main" data-img-url="{{secure_asset('dist/img/hero/1.jpg')}}"></div>
                             </div>
                         </div>
                     </div>
                     <div class="main_menu">
                         <ul>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/archive.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/archive.svg')}}" alt />
                                 <span>About Me</span>
                                 <a class="iknow_tm_full_link" href="#about"></a>
                             </li>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/contacs.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/contacs.svg')}}" alt />
                                 <span>Resume</span>
                                 <a class="iknow_tm_full_link" href="#resume"></a>
                             </li>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/briefcase.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/briefcase.svg')}}" alt />
                                 <span>Portfolio</span>
                                 <a class="iknow_tm_full_link" href="#portfolio"></a>
                             </li>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/gear.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/gear.svg')}}" alt />
                                 <span>Service</span>
                                 <a class="iknow_tm_full_link" href="#service"></a>
                             </li>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/message.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/message.svg')}}" alt />
                                 <span>Testimonial</span>
                                 <a class="iknow_tm_full_link" href="#testimonials"></a>
                             </li>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/writing.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/writing.svg')}}" alt />
                                 <span>Blog</span>
                                 <a class="iknow_tm_full_link" href="#news"></a>
                             </li>
                             <li>
-                                <img class="svg" src="{{asset('dist/img/svg/letter.svg')}}" alt />
+                                <img class="svg" src="{{secure_asset('dist/img/svg/letter.svg')}}" alt />
                                 <span>Contact</span>
                                 <a class="iknow_tm_full_link" href="#contact"></a>
                             </li>
@@ -134,26 +134,26 @@
         </div>
 
         <div class="simple_shapes">
-            <span class="one anim_scale"><img class="svg" src="{{asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="two anim_moveLeft"><img class="svg" src="{{asset('dist/img/svg/shapes/dot.svg')}}" alt /></span>
-            <span class="three anim_moveTop"><img class="svg" src="{{asset('dist/img/svg/shapes/dot-2.svg')}}" alt /></span>
-            <span class="four anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/1.svg')}}" alt /></span>
-            <span class="five anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/8.svg')}}" alt /></span>
-            <span class="six anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/3.svg')}}" alt /></span>
-            <span class="seven anim_right"><img class="svg" src="{{asset('dist/img/svg/shapes/4.svg')}}" alt /></span>
-            <span class="eight anim_scale"><img class="svg" src="{{asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="nine anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/3.svg')}}" alt /></span>
-            <span class="ten anim_moveLeft"><img class="svg" src="{{asset('dist/img/svg/shapes/4.svg')}}" alt /></span>
-            <span class="eleven anim_scale"><img class="svg" src="{{asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="twelve anim_extra"><img class="svg" src="{{asset('dist/img/svg/shapes/2.svg')}}" alt /></span>
-            <span class="thirteen anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/5.svg')}}" alt /></span>
-            <span class="fourteen anim_scale"><img class="svg" src="{{asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="fifteen anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/3.svg')}}" alt /></span>
-            <span class="sixteen anim_scale"><img class="svg" src="{{asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="seventeen anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/5.svg')}}" alt /></span>
-            <span class="eighteen anim_scale"><img class="svg" src="{{asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="nineteen anim_scale"><img class="svg" src="{{asset('img/svg/shapes/9.svg')}}" alt /></span>
-            <span class="twenty anim_circle"><img class="svg" src="{{asset('dist/img/svg/shapes/1.svg')}}" alt /></span>
+            <span class="one anim_scale"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="two anim_moveLeft"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/dot.svg')}}" alt /></span>
+            <span class="three anim_moveTop"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/dot-2.svg')}}" alt /></span>
+            <span class="four anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/1.svg')}}" alt /></span>
+            <span class="five anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/8.svg')}}" alt /></span>
+            <span class="six anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/3.svg')}}" alt /></span>
+            <span class="seven anim_right"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/4.svg')}}" alt /></span>
+            <span class="eight anim_scale"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="nine anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/3.svg')}}" alt /></span>
+            <span class="ten anim_moveLeft"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/4.svg')}}" alt /></span>
+            <span class="eleven anim_scale"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="twelve anim_extra"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/2.svg')}}" alt /></span>
+            <span class="thirteen anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/5.svg')}}" alt /></span>
+            <span class="fourteen anim_scale"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="fifteen anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/3.svg')}}" alt /></span>
+            <span class="sixteen anim_scale"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="seventeen anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/5.svg')}}" alt /></span>
+            <span class="eighteen anim_scale"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="nineteen anim_scale"><img class="svg" src="{{secure_asset('img/svg/shapes/9.svg')}}" alt /></span>
+            <span class="twenty anim_circle"><img class="svg" src="{{secure_asset('dist/img/svg/shapes/1.svg')}}" alt /></span>
         </div>
 
     </div>
@@ -167,8 +167,8 @@
                     <div class="left">
                         <div class="left_inner">
                             <div class="image">
-                                <img src="{{asset('dist/img/thumbs/35-44.jpg')}}" alt />
-                                <div class="main" data-img-url="{{asset('dist/img/about/1.jpg')}}"></div>
+                                <img src="{{secure_asset('dist/img/thumbs/35-44.jpg')}}" alt />
+                                <div class="main" data-img-url="{{secure_asset('dist/img/about/1.jpg')}}"></div>
                             </div>
                             <div class="details">
                                 <ul>
@@ -997,10 +997,10 @@
 
 {{--<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>--}}
 <!--[if lt IE 10]>
- <script type="text/javascript" src="{{asset('dist/js/ie8.js')}}"></script> <![endif]-->
-<script src="{{asset('dist/js/jquery.js')}}"></script>
-<script src="{{asset('dist/js/plugins.js')}}"></script>
-<script src="{{asset('dist/js/init.js')}}"></script>
+ <script type="text/javascript" src="{{secure_asset('dist/js/ie8.js')}}"></script> <![endif]-->
+<script src="{{secure_asset('dist/js/jquery.js')}}"></script>
+<script src="{{secure_asset('dist/js/plugins.js')}}"></script>
+<script src="{{secure_asset('dist/js/init.js')}}"></script>
 
 </body>
 
